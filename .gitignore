@@ -1,0 +1,19 @@
+# Open Payments data stays out (too big for GitHub, and CMS refreshes it yearly)
+data/
+*.parquet
+OP_DTL_*.csv
+
+# Power BI file holds the full clinician tables, so screenshots only
+*.pbix
+
+# Jupyter / Python / Databricks clutter
+.ipynb_checkpoints/
+__pycache__/
+.databricks/
+
+# Windows clutter
+Thumbs.db
+desktop.ini
+
+# Zip downloads
+*.zip
